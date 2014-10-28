@@ -173,6 +173,6 @@ WpUnderscoresGenerator.prototype.addfiles = function addfiles() {
 
 WpUnderscoresGenerator.prototype.sassboostrap = function sassboostrap() {
   if (this.sassBootstrap) {
-    this.bowerInstall([ 'sass-bootstrap' ], { save: true });
+    this.bowerInstall([ 'bootstrap-sass' ], { save: true });
   }
 };
